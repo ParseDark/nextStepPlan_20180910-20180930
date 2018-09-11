@@ -85,6 +85,11 @@ export { fn0 as foo, obj0 as bar};
 ## 比较
 ES6中的模块化都是属于引用。
 	* 每一个导入的js模块都是活的， 每一次访问该模块的变量或者函数都是最新的， 这个是原生ES6模块 与AMD和CMD的区别之一
+	* 兼容性
+```
+chrome浏览器目前不支持import，和export；
+火狐的支持也有限， 比chrome好；
+```
 
 
 
